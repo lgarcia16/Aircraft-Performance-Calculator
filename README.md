@@ -23,7 +23,7 @@ This project calculates core aircraft performance metrics based on user inputs a
 - 🧍‍♂️ Let users define:
   - **fuel capacity(gallons)**
   - **fuel consumption(gal/hr)**
-  - **True air speed** (knots)**
+  - **True air speed(knots)**
   - **payload(lb)**
   - **fuel weight(lb)**
   - **moment list(lb-ft)**
