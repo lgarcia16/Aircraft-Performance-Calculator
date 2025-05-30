@@ -2,7 +2,7 @@
 First aerospace-focused Python project built with Jupyter Notebook
 # 🛩️ Aircraft Performance Calculator (Python + Jupyter)
 
-This project calculates core aircraft performance metrics based on user inputs and standard aerospace engineering principles. Built using Python and Jupyter Notebook, it models flight characteristics such as range, endurance, climb rate, and fuel consumption — with graphical outputs to visualize trade-offs.
+This project calculates core aircraft performance metrics based on user inputs and standard aerospace engineering principles. Built using Python and Jupyter Notebook, it models flight characteristics such as range, endurance, climb rate, and fuel consumption.
 
 ---
 
@@ -17,9 +17,6 @@ This project calculates core aircraft performance metrics based on user inputs a
   - Aircraft **weight**
   - **Wing area**
   - **Engine thrust**
-- 📊 Display plots to analyze performance trade-offs under varying flight conditions
-
----
 
 ## 🚀 Aerospace Concepts Applied
 
