@@ -5,7 +5,7 @@ true_air_speed = 150  # knots
 payload = 5000  # pounds
 fuel_weight = 6000  # pounds
 moment_list = [10000, 2500]  # pound-feet
-total_weight = 1500  # pounds
+empty_weight = 1500  # pounds
 cl = 1.5  # lift coefficient
 rho = 1.225  # air density in kg/m^3
 v = 100  # velocity in m/s
@@ -40,7 +40,7 @@ def calculate_endurance(fuel_capacity, fuel_consumption_rate):
     return endurance_in_hours
     
       
-def calculate_total_weight(payload, fuel_weight):
+def calculate_total_weight(payload, fuel_weight, empty_weight):
     return payload + fuel_weight
 
 def calculate_cg_position(moment_list, total_weight):
@@ -70,7 +70,7 @@ def calculate_distance(velocity, time):
     return velocity * time
 range_ = calculate_range(fuel_capacity, fuel_consumption_rate, true_air_speed)
 endurance = calculate_endurance(fuel_capacity, fuel_consumption_rate)
-total_weight = calculate_total_weight(payload, fuel_weight)
+total_weight = calculate_total_weight(payload, fuel_weight, empty_weight)
 cg_position = calculate_cg_position(moment_list, total_weight)
 lift = calculate_lift(cl, rho, v, s)
 drag = calculate_drag(cd, rho, v, s)
