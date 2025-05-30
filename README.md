@@ -12,11 +12,31 @@ This project calculates core aircraft performance metrics based on user inputs a
   - **Range**
   - **Endurance**
   - **Fuel consumption**
-  - **Climb performance**
+  - **Total Weight**
+  - **Center of gravity position**
+  - **Lift**
+  - **Drag**
+  - **Weight**
+  - **Acceleration**
+  - **Velocity**
+  - **Distance**
 - 🧍‍♂️ Let users define:
-  - Aircraft **weight**
-  - **Wing area**
-  - **Engine thrust**
+  - **fuel capacity(gallons)**
+  - **fuel consumption(gal/hr)**
+  - **True air speed** (knots)**
+  - **payload(lb)**
+  - **fuel weight(lb)**
+  - **moment list(lb-ft)**
+  - **empty weight aircraft(lb)**
+  - **CL(lift coefficient)**
+  - **rho(air density kg/m^3)**
+  - **s (wing area m^2)**
+  - **cd (drag coefficient)**
+  - **mass(kg)**
+  - **gravity**
+  - **thrust**
+  - **time(s)**
+    
 
 ## 🚀 Aerospace Concepts Applied
 
