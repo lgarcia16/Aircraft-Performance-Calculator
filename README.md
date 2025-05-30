@@ -33,8 +33,8 @@ This project calculates core aircraft performance metrics based on user inputs a
   - **s (wing area m^2)**
   - **cd (drag coefficient)**
   - **mass(kg)**
-  - **gravity**
-  - **thrust**
+  - **gravity(m/s^2**
+  - **thrust (N)**
   - **time(s)**
     
 
